@@ -7,7 +7,8 @@ const config = {
   output: {
     filename: 'toastui-react-editor.js',
     path: path.resolve(__dirname, 'dist'),
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'commonjs2',
+    globalObject: this
   },
   externals: {
     '@toast-ui/editor': {
